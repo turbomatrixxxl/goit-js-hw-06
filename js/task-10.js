@@ -45,7 +45,7 @@ createBtn.addEventListener("click", () => {
   }
 
   for (let index = 0; index <= input.value - 1; index++) {
-    addDiv.push(`<div style="background-color:${colors[index]}; width:${size[index]}px; height:${size[index]}px" class="div${index}">b${index}</div>
+    addDiv.push(`<div style="background-color:${colors[index]}; width:${size[index]}px; height:${size[index]}px"></div>
 `);
     divContainer.insertAdjacentHTML("beforeend", addDiv[index]);
   }
